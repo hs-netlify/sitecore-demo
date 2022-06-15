@@ -5,7 +5,7 @@ const Tab = ({ active, index, name, t, onTabChange }) => {
   return (
     <li className="tabsNav-item">
       <a
-        href="#"
+        href="/"
         name={index}
         onClick={active ? null : onTabChange}
         className={`${active ? "active " : ""}tabsNav-item-link`}
